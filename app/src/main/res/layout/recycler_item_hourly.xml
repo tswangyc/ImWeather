@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hourly_item_time"
+        style="@style/HourlyViewStyle"
+        android:text="时间" />
+
+    <TextView
+        android:id="@+id/hourly_item_temp"
+
+        style="@style/HourlyViewStyle"
+        android:text="温度" />
+
+    <TextView
+        android:id="@+id/hourly_item_hum"
+
+        style="@style/HourlyViewStyle"
+        android:text="湿度" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/hourly_item_wd"-->
+
+        <!--style="@style/HourlyViewStyle"-->
+        <!--android:text="风向" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/hourly_item_wp"-->
+        <!--style="@style/HourlyViewStyle"-->
+        <!--android:text="风力" />-->
+
+</LinearLayout>
